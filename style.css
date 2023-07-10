@@ -52,3 +52,48 @@
     text-align: center;
     margin-top: 100px;
 }
+
+/*  Our feature Banner Section Box CSS  */
+
+.Box-container{
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 195px;
+   
+    gap: 20px;
+}
+
+.box-one{
+    background-color: #e7c0d2;
+    
+    height: 250px;
+    width: 900px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 15px;
+}
+
+.box-two{
+    background-color: #D9EFF1;
+    height: 250px;
+    width: 900px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 15px;
+}
+
+.box-three{
+    background-color: #E3EBDB;
+    height: 250px;
+    width: 900px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 15px;
+}
+
+.box-img{
+    width: 200px;
+    margin-top: 70px;
+    height: 195px;
+}
