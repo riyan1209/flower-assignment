@@ -5,3 +5,50 @@
     font-family: 'Lato', sans-serif;
     
 }
+
+/* First banner Section Design */
+
+.frist-banner-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #FCEEF1;
+    
+
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 50px;
+    color: #272727;
+    
+}
+
+.description{
+    margin-top: 20px;
+    color: #797979;
+}
+
+
+
+.first-banner-img{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.btn-primary{
+    padding: 20px 40px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+/* Our feature Banner Section title CSS  */
+
+.feature-flower{
+    text-align: center;
+    margin-top: 100px;
+}
