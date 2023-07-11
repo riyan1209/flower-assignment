@@ -94,6 +94,11 @@ button:hover{
 
 }
 
+.submit:hover{
+    background-color: green;
+    font-weight: 800;
+}
+
 /* Our feature Banner Section title CSS  */
 
 .feature-flower{
@@ -203,7 +208,45 @@ section{
    
 }
 
-    /* latest deal CSS */
+
+/* CALL BACK SESSION CSS */
+
+.call-back-container{
+    display: flex;
+    padding: 80px;
+    height: 70vh;
+    
+}
+
+.call-back-img{
+    width: 500px;
+    border-right: 3px solid black;
+}
+
+.call-back-description{
+    width: 50%;
+
+}
+
+.call-back-description > h1 {
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.call-back-form{
+    margin: 20px;
+    font-weight: 900;
+}
+
+.call-back-form > input{
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 5px;
+
+}
+
+
+ /* latest deal CSS */
 
 .latest-deal-container{
     background-image: url("./bg-img/Rectangle\ 9.png");
