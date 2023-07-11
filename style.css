@@ -106,23 +106,30 @@
     margin: auto;
     gap: 20px;
     width: 50%;
+    background-color: #F4F4F4;
     text-align: center;
-    padding: 0px 100px 0px 100px;
+    padding: 70px 120px;
 }
 
 /*  Deal Section CSS START  */
 
 .hot-deal-container{
-    margin-left: 80px;
-    display: flex;
-    align-items: center;
-    padding: 100px;
- 
+   background-color: #FEF6F8;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 60px;
 }
 
 .hot-deal-image{
     width: 50%;
 }
+
+.hot-deal-description{
+    width: 50%;
+    margin-left: 112px;
+}
+
     
 section{
     margin-top: 0px;
