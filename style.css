@@ -3,9 +3,44 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    
+  
     
 }
+
+/* NAVBAR SECTION CSS */
+
+.nav-container{
+    background-color: #FCEEF1;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.logo{
+    margin-left: 80px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+li:hover{
+    color: green;
+    border: 1px solid green;
+    padding: 5px 15px;
+    font-weight: 800;
+    
+}
+
 
 /* First banner Section Design */
 
@@ -35,6 +70,7 @@
 .first-banner-img{
     width: 300px;
     margin-left: 80px;
+    
 }
 
 .btn-primary{
@@ -46,6 +82,13 @@
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+
+}
+
+button:hover{
+    background-color: green;
+    font-weight: 800;
+
 
 }
 
